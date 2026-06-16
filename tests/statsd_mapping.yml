@@ -1,0 +1,5 @@
+mappings:
+  - match: "stocker.*.*"
+    name: "stocker_${1}_${2}"
+    labels:
+      source: "local"
